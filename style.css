@@ -1,8 +1,19 @@
-nav {
+
+/* Navigation menu */
+.container  {
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 0 10%;
+    text-align: center;
     display: flex;
-    border: 1px solid red;
+}
+
+.links {
+
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 ul {
@@ -10,21 +21,22 @@ ul {
     padding: 0;
     margin: 0;
     color: #E5E7EB;
-    border: 1px solid rgba(0, 200, 255, 0.758);
-    display: flex;
+    display: flex;    
 }
 
 li {
-    border: 1px solid rgb(44, 255, 12);
-    display: flex;
-    gap: 18px;
+    padding: 10px;    
 }
 
-.logo {
-    margin-left: 18px;
-}
-  
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+/* Awesome block */
+
+.awesome-container {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
 }
