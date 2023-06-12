@@ -55,7 +55,6 @@ a {
   justify-content: center;
   gap: 5%;
   padding: 50px 10%;
-
 }
 
 .image-block {
@@ -92,10 +91,47 @@ p {
 }
 
 button {
-    width: 100px;
-    background-color: #3882f6;
-    color:#f9faf8;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #3882f6;
-  }
+  width: 100px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #3882f6;
+}
+
+.random-block > h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.row-blocks {
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-round-block {
+  width: 100px;
+  height: 100px;
+  border: 2px #3882f6 solid;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.blue-block p {
+  max-width: 100px;
+  color: #727273;
+  font-size: 11px;
+  margin-top: 0px;
+}
