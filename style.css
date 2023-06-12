@@ -54,7 +54,8 @@ a {
   display: flex;
   justify-content: center;
   gap: 5%;
-  padding: 0px 10% 20px 10%;
+  padding: 50px 10%;
+
 }
 
 .image-block {
