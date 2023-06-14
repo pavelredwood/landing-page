@@ -135,3 +135,28 @@ button {
   font-size: 11px;
   margin-top: 0px;
 }
+
+.quote-block {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 10% 30px 10%;
+  align-items: center;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  width: 600px;
+  
+}
+
+.author-p {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: end;
+  align-self: flex-end;
+}
