@@ -193,3 +193,12 @@ button {
   text-align: center;
 }
 
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: small;
+}
